@@ -1,0 +1,21 @@
+pluginManagement {
+    repositories {
+        jcenter()
+        maven {
+            name = 'Fabric'
+            url = 'https://maven.fabricmc.net/'
+        }
+        gradlePluginPortal()
+    }
+
+    resolutionStrategy {
+        eachPlugin {
+            if (requested.id.namespace != null && requested.id.namespace.startsWith("org.jetbrains.kotlin")) {
+                useVersion kotlin_version
+            }
+            if(requested.id.toString() == "fabric-loom"){
+                useVersion loom_version
+            }
+        }
+    }
+}
