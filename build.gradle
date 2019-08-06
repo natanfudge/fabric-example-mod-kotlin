@@ -14,9 +14,6 @@ group = project.maven_group
 minecraft {
 }
 
-sourceSets {
-    main.kotlin.srcDirs += 'src/main/kotlin'
-}
 
 repositories {
     maven { url = "http://maven.fabricmc.net/" }
