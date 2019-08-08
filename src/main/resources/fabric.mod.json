@@ -25,10 +25,10 @@
   "mixins": [
     "modid.mixins.json"
   ],
-
   "depends": {
     "fabricloader": ">=0.4.0",
-    "fabric": "*"
+    "fabric": "*",
+    "fabric-language-kotlin": ">=1.3.30"
   },
   "suggests": {
     "flamingo": "*"
