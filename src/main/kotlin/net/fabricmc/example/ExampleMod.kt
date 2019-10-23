@@ -1,5 +1,6 @@
 package net.fabricmc.example
 
+// For support join https://discord.gg/v6v4pMv
 
 @Suppress("unused")
 fun init() {
