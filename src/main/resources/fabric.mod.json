@@ -26,10 +26,10 @@
     "modid.mixins.json"
   ],
   "depends": {
-    "fabricloader": ">=0.4.0",
+    "fabricloader": ">=0.7.1",
     "fabric": "*",
     "fabric-language-kotlin": "*",
-    "minecraft": "1.14.x"
+    "minecraft": "1.15.x"
   },
   "suggests": {
     "flamingo": "*"
