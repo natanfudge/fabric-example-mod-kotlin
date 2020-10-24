@@ -1,4 +1,5 @@
 # Fabric Example Mod - Kotlin
+![Gradle build](https://github.com/natanfudge/fabric-example-mod-kotlin/workflows/build/badge.svg)
 
 ## Setup
 
