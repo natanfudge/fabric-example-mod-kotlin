@@ -1,6 +1,5 @@
 # Fabric Example Mod - Kotlin
-![Gradle build](https://github.com/natanfudge/fabric-example-mod-kotlin/workflows/build/badge.svg)
-
+![Gradle build](https://github.com/natanfudge/fabric-example-mod-kotlin/workflows/Gradle%20build/badge.svg)
 ## Setup
 
 0. Create a new mod repository by pressing the "Use this template" button and clone the created repository.
