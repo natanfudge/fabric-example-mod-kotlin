@@ -11,7 +11,22 @@ out/
 *.ipr
 *.iws
 
+# eclipse
+
+*.launch
+
+# vscode
+
+.settings/
+.vscode/
+bin/
+.classpath
+.project
+
+# macos
+
+*.DS_STORE
+
 # fabric
 
 run/
-minecraft/
